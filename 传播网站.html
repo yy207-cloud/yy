@@ -1,0 +1,485 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>传播学系官网</title>  
+    <link rel="stylesheet" href="styles.css">  
+  <style>
+    h1  {
+        text-align: center;
+    }
+    body {  
+    font-family: Arial, sans-serif;  
+    color: #483636;  
+    margin: 0;  
+    padding: 0;  
+}  
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: sticky;
+    height: 100%;
+    overflow: auto;
+    float: left;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.content {
+    margin-left: 200px; /* 同侧边栏宽度 */
+    padding: 1px 16px;
+    height: 1000px; /* 固定内容高度 */
+}
+.lhx {
+    
+    justify-content: space-around; /* 使logo和标题之间有间隔 */
+    text-align: left;
+    color: #ffeacc;
+}
+
+.yyyy{
+    background-color:#82b2ffc5;
+    
+}
+header {  
+    background-color: #f2f2f4; /* 蓝色背景 */  
+    color: #fff;  
+    padding: 10px;  
+}  
+  
+nav ul {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+/* 重置列表默认样式 */
+nav ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center; /* 同时实现水平和垂直居中 */
+        }
+
+        /* 主要内容区域 */
+        .main-content {
+            width: 80%;
+    max-width: 600px; /* 最大宽度 */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(198, 197, 197, 0.1);
+        }
+   
+nav ul li {  
+    display: inline-block;  
+    margin-right: 10px;  
+}  
+  
+nav ul li a {  
+    color: #0f0e0f;  
+    text-decoration: none;  
+}  
+ 
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.topnav {
+    background-color: #716f71;
+    overflow: hidden;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+}
+
+.topnav li a.active {
+    background-color: #4CAF50;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #eef0f2;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* 使内容在头部两端对齐 */
+    align-items: center; /* 垂直居中 */
+}
+
+
+
+.search-box {
+    display: flex;
+    align-items: center; /* 使输入框和按钮垂直居中 */
+}
+
+.search-box input[type="search"] {
+    padding: 5px;
+    margin-right: 5px; /* 与按钮保持一定间距 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    background-color: #80a4f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.image-section {  
+    display: flex;  
+    justify-content: space-around;  
+    margin-top: 20px;  
+}  
+  
+.image-container {  
+    flex: 1;  
+    margin: 0 10px;  
+    text-align: center;  
+}  
+  
+.image-container img {  
+    width: 100%;  
+    height: auto;  
+    margin-bottom: 10px;  
+}  
+  
+footer {  
+    background-color: #82b2ffc5;  
+    padding: 10px;  
+    text-align: center;  
+}  
+.right-align {
+            text-align: center;
+        }
+
+.container {
+            display: flex; /* 使用Flexbox布局 */
+            justify-content: center; /* 水平居中 */
+            align-items: flex-start; /* 垂直方向上对齐 */
+        }
+ .box {
+            border: 2px solid #000; /* 边框 */
+            padding: 20px; /* 内边距 */
+            margin: 10px; /* 外边距 */
+            width: 300px; /* 宽度 */
+            height: 350px; /* 高度 */
+            text-align: center; /* 文本居中 */
+            background-color: #f9f9f9; /* 背景颜色 */
+        }
+        .rectangle-box {
+    width: 900px;        /* 宽度 */
+    height: 200px;       /* 高度，可以根据需要调整 */
+    border: 2px solid black; /* 黑色边框 */
+    padding: 10px;       /* 内边距，使内容与边框保持一定距离 */
+    box-sizing: border-box; /* 边框宽度包含在元素宽度内 */
+    display: flex;       /* 使用flex布局以便于内容居中 */
+    justify-content: left; /* 水平居中 */
+    align-items: unset;   /* 垂直居中 */
+  }
+ 
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px; /* 行之间的间距 */
+  }
+
+  .circle {
+    width: 150px;        /* 圆形的宽度 */
+    height: 150px;       /* 圆形的高度 */
+    border: 2px solid black; /* 黑色边框 */
+    border-radius: 50%;  /* 圆形边框 */
+  
+    position: relative;  /* 相对定位，以便图片可以定位在圆形上方 */
+    margin: 5px;        /* 圆形之间的间隔 */
+  }
+
+  .circle img {
+    width: 100%;         /* 图片宽度 */
+    height: 100%;        /* 图片高度 */
+    object-fit: cover;   /* 确保图片覆盖整个圆形，不变形 */
+    border-radius: 50%;  /* 图片也是圆形 */
+    position: absolute;  /* 绝对定位，图片覆盖整个圆形 */
+  }
+  .circle-text {
+    font-size: 16px; /* 文字大小 */
+    margin-top: 10px; /* 文字与圆形的间隔 */
+    text-align: center; /* 文字居中对齐 */}
+   
+    .row1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px; /* 行之间的间距 */
+  }
+  .circle {
+    width: 150px;        /* 圆形的宽度 */
+    height: 150px;       /* 圆形的高度 */
+    border: 2px solid black; /* 黑色边框 */
+    border-radius: 50%;  /* 圆形边框 */
+  
+    position: relative;  /* 相对定位，以便图片可以定位在圆形上方 */
+    margin: 3px;        /* 圆形之间的间隔 */
+  }
+
+  .circle img {
+    width: 100%;         /* 图片宽度 */
+    height: 100%;        /* 图片高度 */
+    object-fit: cover;   /* 确保图片覆盖整个圆形，不变形 */
+    border-radius: 50%;  /* 图片也是圆形 */
+    position: absolute;  /* 绝对定位，图片覆盖整个圆形 */
+  }
+  .circle-text {
+    font-size: 16px; /* 文字大小 */
+    margin-top: 10px; /* 文字与圆形的间隔 */
+    text-align: center; /* 文字居中对齐 */}
+
+  .box-container {
+    display: flex; /* 使用flex布局以便于水平排列方框 */
+    justify-content: space-around; /* 方框之间平均分布 */
+    padding: 20px; /* 容器的内边距 */
+  }
+
+  .box {
+    border: 2px solid black; /* 黑色边框 */
+    position: relative; /* 相对定位，以便图片和文字位置正确 */
+    margin: 5px; /* 方框之间的间隔 */
+  }
+
+  .box img {
+    width: 100%; /* 图片宽度 */
+    height: auto; /* 图片高度自适应 */
+    display: block; /* 阻止图片底部的间隙 */
+  }
+
+  .box-text {
+    font-size: 16px; /* 文字大小 */
+    padding: 10px; /* 文字的内边距 */
+    text-align: center; /* 文字居中对齐 */
+  }
+ 
+  .main-content {
+    margin-left: 220px; /* 主内容与侧边导航的间隔 */}
+   
+  </style>
+</head>  
+<body>  
+   <div class="yyyy">
+   <img src="./logo.png" alt="logo" width="70"height="100">
+    <h2 id="lhx">传播系官网</h2>
+    </div>  
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+        <header>  
+            <!-- 导航栏和搜索栏 -->  
+            <nav class="topnav">  
+                <ul>  
+                    <li><a href="#">首页</a></li>  
+                    <li><a href="#about">关于我们</a></li>  
+                    <li><a href="#news">新闻动态</a></li>  
+                    <li><a href="#courses">在线课程</a></li>  
+                    <!-- 其他导航项 -->  
+                </ul>  
+                <header>
+                    <div class="header-content">
+                        <!-- 其他内容，例如logo或导航链接 -->
+                    </div>
+                    <div class="search-box">
+                        <input type="search" placeholder="搜索...">
+                        <button type="submit">搜索</button>
+                    </div>
+                </header>
+            </nav>  
+        </header>  
+        <nav class="sidebar">  
+            <ul>  
+                <li><a href="#">传播学公告</a></li>  
+                <li><a href="#about">传播系新闻</a></li>  
+                <li><a href="#news">传播系邮箱</a></li>  
+                <li><a href="#courses">后台服务</a></li>
+                <li><a href="#courses">个人信息</a></li>
+                <div class="content">
+                    <h1>首页</h1>
+                    <p>这里是首页内容...</p>
+                    <!-- 其他页面内容 -->
+                </div>
+                  
+                <!-- 其他导航项 -->  
+            </ul>  
+      
+        </nav>  
+        <main>  
+            <img src="./11.png" alt="笃学力行 守正创新"width="800" height="400"> 
+            <br><br><br>
+             <!-- 导航栏和搜索栏 -->  
+             <div class="main-content">
+            <h1>关于我们</h1>
+            <p>杭州电子科技大学新媒体传播系创系于2008年，隶属于数字媒体与艺术设计学院（原<br><br>新闻出版学院）。
+              新媒体传播专业面向全球传播行业理论与技术发展，依托中国数字<br><br>新媒体产业发展趋势及其人才需求，以传播学、新闻学、社会学及新媒体的基本理论<br><br>和方法与技术为基础，以文理工学科交叉融合为特色，培养既有系统的传播学与新闻<br><br>学以及媒介经营管理理论和实务知识，又掌握新媒体技术、熟悉新媒体传播环境、精<br><br>通新媒体产品设计与传播等实务的高级专门人才。 </p>
+            <img src="./xy.png" alt="404"width="700"height="800" >
+            </div>
+            <!-- 新闻动态 -->  
+            <div class=" right-align">
+                <div class="container">
+                    <div class="box">
+                <h2>传播系新闻</h2>  
+                <p>高雅艺术进校园</p>
+                <p>校十佳歌手决赛</p>
+                <img src="./传播系新闻1.png" alt="新闻图片" width="300" height="200">  
+                <!-- 其他新闻条目 -->  
+            </nav>
+            </div>
+            </section>  
+    
+            <!-- 在线课程 -->  
+            <div class="box"> 
+                <h2>课程安排</h2>  
+                 <p>高数、媒介经营与管理</p> <p>新闻学、传媒经济</p> <p>网页设计、详情</p> 
+                 <h2>教学任务</h2>
+                 <p>掌握传播媒介的使用技巧、学会分析传播效果等。</p> 
+
+                 <p>根据教学目标，选择合适的传播学理论、案例分析、媒介技术等内容。</p> 
+               
+                <!-- 其他课程信息 -->  
+            </section> 
+            <br> <br> <br> 
+        </main>  
+        <div class="rectangle-box">
+            <h2>媒体关注</h2>
+            <img src="./媒体关注.png" alt="方框1图片">
+            <p>浙江日报：xxxxxxxx<br><br>
+
+                新华网：xxxxxxx<br><br>
+                
+                中国蓝新闻：xxxxxx<br><br>
+                
+                浙江日报：xxxxx</p>
+          </div>
+          <br>
+          <br><br><br>
+          <h1>师资力量</h1>
+          <div class="row">
+            <div class="circle">
+              <img src="./zml老师.png" alt="圆形图片1">
+              <div class="circle-text"><br><br><br><br><br><br><br><br>张美龄</div>
+            </div>
+           
+            <div class="circle">
+              <img src="./ws老师.png" alt="圆形图片2">
+              <div class="circle-text"><br><br><br><br><br><br><br><br>王松</div>
+            </div>
+            <div class="circle">
+              <img src="./wj老师.png" alt="圆形图片3">
+              <div class="circle-text"><br><br><br><br><br><br><br><br>王洁</div>
+            </div>
+          </div>
+          <br><br>
+          <div class="row1">
+            <div class="circle">
+              <img src="./lhx老师.png" alt="圆形图片4">
+              <div class="circle-text"><br><br><br><br><br><br><br><br>刘合翔</div>
+            </div>
+            <div class="circle">
+              <img src="./ljc老师.png" alt="圆形图片5">
+              <div class="circle-text"><br><br><br><br><br><br><br><br>李金诚</div>
+            </div>
+            <div class="circle">
+              <img src="./zh老师.png" alt="圆形图片6">
+              <div class="circle-text"><br><br><br><br><br><br><br><br>张杭</div>
+            </div>
+          </div>
+         <br><br><br><br><br><br><br><br>
+          <h1>优秀学生作品</h1>
+          <div class="box-container">
+            <div class="box">
+              <img src="./1.jpg" alt="方框1图片">
+              <div class="box-text"><br><br><br><br><br><br><br><br><br><br><br>xxx同学</div>
+            </div>
+            <div class="box">
+                <img src="./22.jpg" alt="方框2图片">
+                <div class="box-text"><br><br><br><br>xxx同学</div>
+            </div>
+            <div class="box">
+              <img src="./33.jpg" alt="方框3图片">
+              <div class="box-text"><br><br><br><br><br><br><br><br><br><br><br>xxx同学</div>
+            </div>
+          </div>
+         
+          
+</style>
+</head>
+<body>
+
+    <br><br><br>
+          <footer>  
+            <!-- 社交媒体图标和其他信息 -->  
+    
+            <p>版权信息和联系方式...</p>  
+            
+       
+        
+    </div>
+    
+
+
+    
+
+</body>  
+</html>

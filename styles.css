@@ -1,0 +1,310 @@
+h1  {
+    text-align: center;
+}
+body {  
+font-family: Arial, sans-serif;  
+color: #483636;  
+margin: 0;  
+padding: 0;  
+}  
+body {
+font-family: Arial, sans-serif;
+}
+
+.sidebar {
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: #f1f1f1;
+position: sticky;
+height: 100%;
+overflow: auto;
+float: left;
+}
+
+.sidebar a {
+display: block;
+color: black;
+padding: 16px;
+text-decoration: none;
+}
+
+.sidebar a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+.sidebar a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+.content {
+margin-left: 200px; /* 同侧边栏宽度 */
+padding: 1px 16px;
+height: 1000px; /* 固定内容高度 */
+}
+.lhx {
+
+justify-content: space-around; /* 使logo和标题之间有间隔 */
+text-align: left;
+color: #ffeacc;
+}
+
+.yyyy{
+background-color:#82b2ffc5;
+
+}
+header {  
+background-color: #f2f2f4; /* 蓝色背景 */  
+color: #fff;  
+padding: 10px;  
+}  
+
+nav ul {  
+list-style-type: none;  
+margin: 0;  
+padding: 0;  
+display: flex;  
+justify-content: space-between;  
+align-items: center;  
+}  
+/* 重置列表默认样式 */
+nav ul {
+height: 100%;
+margin: 0;
+padding: 0;
+display: grid;
+place-items: center; /* 同时实现水平和垂直居中 */
+    }
+
+    /* 主要内容区域 */
+    .main-content {
+        width: 80%;
+max-width: 600px; /* 最大宽度 */
+padding: 20px;
+text-align: center;
+box-shadow: 0 0 10px rgba(198, 197, 197, 0.1);
+    }
+
+nav ul li {  
+display: inline-block;  
+margin-right: 10px;  
+}  
+
+nav ul li a {  
+color: #0f0e0f;  
+text-decoration: none;  
+}  
+
+
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+.topnav {
+background-color: #716f71;
+overflow: hidden;
+}
+
+.topnav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.topnav li {
+float: left;
+}
+
+.topnav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.topnav li a:hover {
+background-color: #ddd;
+color: rgb(0, 0, 0);
+}
+
+.topnav li a.active {
+background-color: #4CAF50;
+}
+
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+header {
+background-color: #eef0f2;
+padding: 10px 20px;
+display: flex;
+justify-content: space-between; /* 使内容在头部两端对齐 */
+align-items: center; /* 垂直居中 */
+}
+
+
+
+.search-box {
+display: flex;
+align-items: center; /* 使输入框和按钮垂直居中 */
+}
+
+.search-box input[type="search"] {
+padding: 5px;
+margin-right: 5px; /* 与按钮保持一定间距 */
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.search-box button {
+padding: 5px 10px;
+background-color: #80a4f0;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+
+.image-section {  
+display: flex;  
+justify-content: space-around;  
+margin-top: 20px;  
+}  
+
+.image-container {  
+flex: 1;  
+margin: 0 10px;  
+text-align: center;  
+}  
+
+.image-container img {  
+width: 100%;  
+height: auto;  
+margin-bottom: 10px;  
+}  
+
+footer {  
+background-color: #82b2ffc5;  
+padding: 10px;  
+text-align: center;  
+}  
+.right-align {
+        text-align: center;
+    }
+
+.container {
+        display: flex; /* 使用Flexbox布局 */
+        justify-content: center; /* 水平居中 */
+        align-items: flex-start; /* 垂直方向上对齐 */
+    }
+.box {
+        border: 2px solid #000; /* 边框 */
+        padding: 20px; /* 内边距 */
+        margin: 10px; /* 外边距 */
+        width: 300px; /* 宽度 */
+        height: 350px; /* 高度 */
+        text-align: center; /* 文本居中 */
+        background-color: #f9f9f9; /* 背景颜色 */
+    }
+    .rectangle-box {
+width: 900px;        /* 宽度 */
+height: 200px;       /* 高度，可以根据需要调整 */
+border: 2px solid black; /* 黑色边框 */
+padding: 10px;       /* 内边距，使内容与边框保持一定距离 */
+box-sizing: border-box; /* 边框宽度包含在元素宽度内 */
+display: flex;       /* 使用flex布局以便于内容居中 */
+justify-content: left; /* 水平居中 */
+align-items: unset;   /* 垂直居中 */
+}
+
+
+.row {
+display: flex;
+justify-content: space-around;
+margin-bottom: 10px; /* 行之间的间距 */
+}
+
+.circle {
+width: 150px;        /* 圆形的宽度 */
+height: 150px;       /* 圆形的高度 */
+border: 2px solid black; /* 黑色边框 */
+border-radius: 50%;  /* 圆形边框 */
+
+position: relative;  /* 相对定位，以便图片可以定位在圆形上方 */
+margin: 5px;        /* 圆形之间的间隔 */
+}
+
+.circle img {
+width: 100%;         /* 图片宽度 */
+height: 100%;        /* 图片高度 */
+object-fit: cover;   /* 确保图片覆盖整个圆形，不变形 */
+border-radius: 50%;  /* 图片也是圆形 */
+position: absolute;  /* 绝对定位，图片覆盖整个圆形 */
+}
+.circle-text {
+font-size: 16px; /* 文字大小 */
+margin-top: 10px; /* 文字与圆形的间隔 */
+text-align: center; /* 文字居中对齐 */}
+
+.row1 {
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 10px; /* 行之间的间距 */
+}
+.circle {
+width: 150px;        /* 圆形的宽度 */
+height: 150px;       /* 圆形的高度 */
+border: 2px solid black; /* 黑色边框 */
+border-radius: 50%;  /* 圆形边框 */
+
+position: relative;  /* 相对定位，以便图片可以定位在圆形上方 */
+margin: 3px;        /* 圆形之间的间隔 */
+}
+
+.circle img {
+width: 100%;         /* 图片宽度 */
+height: 100%;        /* 图片高度 */
+object-fit: cover;   /* 确保图片覆盖整个圆形，不变形 */
+border-radius: 50%;  /* 图片也是圆形 */
+position: absolute;  /* 绝对定位，图片覆盖整个圆形 */
+}
+.circle-text {
+font-size: 16px; /* 文字大小 */
+margin-top: 10px; /* 文字与圆形的间隔 */
+text-align: center; /* 文字居中对齐 */}
+
+.box-container {
+display: flex; /* 使用flex布局以便于水平排列方框 */
+justify-content: space-around; /* 方框之间平均分布 */
+padding: 20px; /* 容器的内边距 */
+}
+
+.box {
+border: 2px solid black; /* 黑色边框 */
+position: relative; /* 相对定位，以便图片和文字位置正确 */
+margin: 5px; /* 方框之间的间隔 */
+}
+
+.box img {
+width: 100%; /* 图片宽度 */
+height: auto; /* 图片高度自适应 */
+display: block; /* 阻止图片底部的间隙 */
+}
+
+.box-text {
+font-size: 16px; /* 文字大小 */
+padding: 10px; /* 文字的内边距 */
+text-align: center; /* 文字居中对齐 */
+}
+
+.main-content {
+margin-left: 220px; /* 主内容与侧边导航的间隔 */}
